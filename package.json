@@ -1,0 +1,11 @@
+{
+  "name": "dasheck0-openligadb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Neidig <s.neidig@appcom-interactive.de> (https://appcom-interactive.de/)",
+  "license": "MIT"
+}
