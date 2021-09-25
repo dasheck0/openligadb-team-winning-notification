@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Stefan Neidig <s.neidig@appcom-interactive.de> (https://appcom-interactive.de/)",
-  "license": "MIT"
+  "author": "Stefan Neidig <stefan@rpdev.net> (https://rpdev.net)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.995.0",
+    "axios": "^0.21.4",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0"
+  }
 }
