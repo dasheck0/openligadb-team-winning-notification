@@ -83,7 +83,7 @@ const sendEmail = async (recipient, matches) => {
                 Data: subject
             }
         },
-        Source: 'stefan@rpdev.net'
+        Source: process.env.SOURCE
     }
 
     try {
