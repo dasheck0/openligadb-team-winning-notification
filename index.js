@@ -104,6 +104,10 @@ exports.handler = async function () {
     const lastWeeksWonMatches = getLastWeeksMatches(wonMatches);
     console.log(lastWeeksWonMatches.length, "in the last week");
 
-    await sendEmail(process.env.RECIPIENT, lastWeeksWonMatches);
-    console.log("Email was sent");
+    if(lastWeeksWonMatches && lastWeeksWonMatches.length > 0) {
+        await sendEmail(process.env.RECIPIENT, lastWeeksWonMatches);
+        console.log("Email was sent");
+    } else {
+        console.warn("There were no won machtes last week");
+    }
 }
